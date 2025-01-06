@@ -86,7 +86,7 @@ const FormData = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Full Validation Form</h1>
+      <h1 style={styles.heading}>Formik Validation Form</h1>
       <form onSubmit={formik.handleSubmit}>
         {/* Name Field */}
         <div style={styles.fieldContainer}>
